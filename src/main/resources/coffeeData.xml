@@ -1,0 +1,94 @@
+<coffeeData>
+    <Extras>
+        <extra id="1">
+            <name>milk</name>
+            <price>5</price>
+        </extra>
+        <extra id="2">
+            <name>syrup</name>
+            <price>4</price>
+        </extra>
+    </Extras>
+    <Coffees>
+        <coffee id="1">
+            <name>Cappuchino</name>
+            <weightS>100</weightS>
+            <weightM>150</weightM>
+            <weightL>200</weightL>
+        </coffee>
+        <coffee id="2">
+            <name>Latte</name>
+            <weightS>120</weightS>
+            <weightM>170</weightM>
+            <weightL>220</weightL>
+        </coffee>
+        <coffee id="3">
+            <name>Espresso</name>
+            <weightS>50</weightS>
+            <weightM>80</weightM>
+            <weightL>120</weightL>
+        </coffee>
+    </Coffees>
+    <Toppings>
+        <topping id="1">
+            <name>Cinnamon</name>
+        </topping>
+        <topping id="2">
+            <name>nutmeg</name>
+        </topping>
+    </Toppings>
+    <CoffeeToppings>
+        <coffeeTopping id="1">
+            <toppingId>1</toppingId>
+            <coffeeId>1</coffeeId>
+        </coffeeTopping>
+        <coffeeTopping id="2">
+            <toppingId>2</toppingId>
+            <coffeeId>1</coffeeId>
+        </coffeeTopping>
+        <coffeeTopping id="3">
+            <toppingId>1</toppingId>
+            <coffeeId>2</coffeeId>
+        </coffeeTopping>
+        <coffeeTopping id="4">
+            <toppingId>2</toppingId>
+            <coffeeId>2</coffeeId>
+        </coffeeTopping>
+    </CoffeeToppings>
+    <Orders>
+        <order id="1">
+            <dateTime>2019-12-10 20:27:00</dateTime>
+            <ready>true</ready>
+            <userId>1</userId>
+        </order>
+    </Orders>
+    <OrderedCoffees>
+        <orderedCoffee id="1">
+            <size>LARGE</size>
+            <count>1</count>
+            <coffeeId>2</coffeeId>
+            <orderId>1</orderId>
+        </orderedCoffee>
+    </OrderedCoffees>
+    <OrderedExtras>
+        <orderedExtra id="1">
+            <count>1</count>
+            <extraId>2</extraId>
+            <orderId>1</orderId>
+        </orderedExtra>
+    </OrderedExtras>
+    <Users>
+        <user id="1">
+            <login>aaaaa</login>
+            <passwordHash>cXdlcnR5cXdlcnR5cXdlcnR5</passwordHash>
+            <passwordSalt>MTIzNDEyMzQxMjM0</passwordSalt>
+            <admin>true</admin>
+        </user>
+        <user id="2">
+            <login>qqqqq</login>
+            <passwordHash>YWJjZGVhYmNkZWFiY2RlYWJjZGVhYmNkZQ==</passwordHash>
+            <passwordSalt>MzIxMzIxMzIxMzIxMzIx</passwordSalt>
+            <admin>false</admin>
+        </user>
+    </Users>
+</coffeeData>
